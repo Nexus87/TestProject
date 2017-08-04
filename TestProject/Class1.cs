@@ -17,6 +17,14 @@ namespace TestProject
         {
             
         }
+
+        [Theory]
+        [InlineData(1, "Test")]
+        [InlineData(2, "Test2")]
+        public void Test_Function2(int i, string s)
+        {
+            
+        }
     }
 
 
@@ -33,6 +41,7 @@ namespace TestProject
                 
             }
 
+            [Fact]
             public void Test_Func3()
             {
                 
