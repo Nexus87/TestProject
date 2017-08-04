@@ -49,6 +49,14 @@ namespace TestProject
         }
     }
 
+    public class Class4
+    {
+        [Bla, Fact]
+        public void Test_Func5()
+        {
+            
+        }
+    }
     public interface IClass
     {
         
